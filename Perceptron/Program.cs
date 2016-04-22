@@ -22,13 +22,13 @@ namespace Perceptron
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Would you like to ask?[y/n]:");
+                Console.WriteLine("Chcesz zapytać?[y/n]:");
                 string code = Console.ReadLine();
                 flag = (code[0] == 'y') ? true : false;
                 if (!flag)
                     break;
                 uint input_1 = 0, input_2 = 0;
-                Console.WriteLine("Ask logical \"And\"");
+                Console.WriteLine("zapytaj o logiczne \"And\"");
                 Console.Write("Input 1: ");
                 input_1 = Convert.ToUInt32(Console.ReadLine());
                 Console.Write("Input 2: ");
@@ -38,13 +38,13 @@ namespace Perceptron
             Console.WriteLine("Training Finished");
         }
 
-        private static List<Data> PrepareData()
+        private static List<VectorData> PrepareData()
         {
-            List<Data> vectorSheet = new List<Data>();
-            Data _1 = new Data(0, 0, 0);
-            Data _2 = new Data(1, 0, 0);
-            Data _3 = new Data(0, 1, 0);
-            Data _4 = new Data(1, 1, 1);
+            List<VectorData> vectorSheet = new List<VectorData>();
+            VectorData _1 = new VectorData(0, 0, 0);
+            VectorData _2 = new VectorData(1, 0, 0);
+            VectorData _3 = new VectorData(0, 1, 0);
+            VectorData _4 = new VectorData(1, 1, 1);
             vectorSheet.Add(_1);
             vectorSheet.Add(_2);
             vectorSheet.Add(_3);

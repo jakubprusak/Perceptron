@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Perceptron
 {
-    public class Data
+    public class VectorData
     {
         public uint input_1;
         public uint input_2;
@@ -60,7 +60,7 @@ namespace Perceptron
         /// <summary>
         ///Default constructor of the Data class 
         /// </summary>
-        public Data()
+        public VectorData()
         {
             //empty
         }
@@ -80,7 +80,7 @@ namespace Perceptron
         /// Expected Output of the Perceptron 
         /// <see cref="System.UInt32"/>
         /// </param>
-        public Data(uint input_1, uint input_2, uint output)
+        public VectorData(uint input_1, uint input_2, uint output)
         {
             this.input_1 = input_1;
             this.input_2 = input_2;

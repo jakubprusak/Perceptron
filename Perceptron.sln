@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perceptron", "Perceptron\Perceptron.csproj", "{0F6E56B1-D800-4D64-8EA4-86BF1A5931E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hopfield", "Hopfield\Hopfield.csproj", "{280C0080-9A3B-4930-9ED8-33494B116D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0F6E56B1-D800-4D64-8EA4-86BF1A5931E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F6E56B1-D800-4D64-8EA4-86BF1A5931E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F6E56B1-D800-4D64-8EA4-86BF1A5931E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280C0080-9A3B-4930-9ED8-33494B116D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280C0080-9A3B-4930-9ED8-33494B116D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280C0080-9A3B-4930-9ED8-33494B116D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280C0080-9A3B-4930-9ED8-33494B116D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
